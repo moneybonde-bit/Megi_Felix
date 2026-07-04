@@ -60,8 +60,8 @@ export function DigitalGift() {
             >
               {copiedIndex === index ? (
                 <>
-                  <CheckCircle2 className="w-4 h-4 text-emerald-500" />
-                  <span className="text-emerald-600">Tersalin</span>
+                  <CheckCircle2 className="w-4 h-4 text-blue-600" />
+                  <span className="text-blue-700">Tersalin</span>
                 </>
               ) : (
                 <>

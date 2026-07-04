@@ -72,7 +72,7 @@ export function Timeline() {
                     {/* Decorative reflection */}
                     <div className="absolute -top-20 -left-20 w-40 h-40 bg-white/40 rounded-full blur-3xl opacity-50"></div>
 
-                    <span className="text-emerald-600 font-sans text-xs font-bold tracking-widest uppercase block mb-3">
+                    <span className="text-blue-700 font-sans text-xs font-bold tracking-widest uppercase block mb-3">
                       {item.date}
                     </span>
                     <h4 className="text-2xl font-serif text-charcoal-medium mb-3">{item.title}</h4>

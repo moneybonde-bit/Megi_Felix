@@ -30,7 +30,7 @@ export function SectionTitle({ title, subtitle, className = "" }: { title: strin
       {/* Subtle backdrop for sticky text */}
       <div className="absolute inset-0 bg-sky-light/80 backdrop-blur-md -z-10 rounded-2xl shadow-[0_10px_30px_-15px_rgba(0,0,0,0.1)] opacity-0 md:opacity-100"></div>
       {subtitle && (
-        <span className="text-emerald-600 font-sans font-bold tracking-[0.2em] text-xs md:text-sm uppercase mb-2 block">
+        <span className="text-blue-700 font-sans font-bold tracking-[0.2em] text-xs md:text-sm uppercase mb-2 block">
           {subtitle}
         </span>
       )}

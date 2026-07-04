@@ -1,6 +1,7 @@
 import { Section, SectionTitle } from './ui/Section';
 import { Instagram } from 'lucide-react';
 import { motion } from 'motion/react';
+import { BlueRose } from './florals/Flowers';
 
 export function CoupleProfiles() {
   return (
@@ -25,7 +26,7 @@ export function CoupleProfiles() {
             </div>
             {/* 3D Floral Decoration Placeholder */}
             <div className="absolute -bottom-4 -right-4 w-16 h-16 bg-blue-300 rounded-full blur-xl opacity-60"></div>
-            <div className="absolute -bottom-2 -right-2 text-2xl drop-shadow-md">🌸</div> 
+            <BlueRose variant="sky" className="absolute -bottom-4 -right-4 w-12 drop-shadow-md rotate-12" /> 
           </div>
           
           <h3 className="text-3xl font-serif text-charcoal-medium mb-2">Meggy Claudia Tadjamawo</h3>
@@ -38,7 +39,7 @@ export function CoupleProfiles() {
             href="https://instagram.com/meegyrobert" 
             target="_blank" 
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 text-xs uppercase tracking-widest text-emerald-600 hover:text-emerald-500 font-bold transition-colors"
+            className="inline-flex items-center gap-2 text-xs uppercase tracking-widest text-blue-700 hover:text-blue-600 font-bold transition-colors"
           >
             <Instagram className="w-4 h-4" /> @meegyrobert
           </a>
@@ -71,7 +72,7 @@ export function CoupleProfiles() {
             </div>
             {/* 3D Floral Decoration Placeholder */}
             <div className="absolute -bottom-4 -left-4 w-16 h-16 bg-sky-blue rounded-full blur-xl opacity-60"></div>
-            <div className="absolute -bottom-2 -left-2 text-2xl drop-shadow-md">🌿</div>
+            <BlueRose variant="royal" className="absolute -bottom-4 -left-4 w-12 drop-shadow-md -rotate-12" />
           </div>
           
           <h3 className="text-3xl font-serif text-charcoal-medium mb-2">Felix Ferdinand</h3>
@@ -84,7 +85,7 @@ export function CoupleProfiles() {
             href="https://instagram.com/ffeerdinand" 
             target="_blank" 
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 text-xs uppercase tracking-widest text-emerald-600 hover:text-emerald-500 font-bold transition-colors"
+            className="inline-flex items-center gap-2 text-xs uppercase tracking-widest text-blue-700 hover:text-blue-600 font-bold transition-colors"
           >
             <Instagram className="w-4 h-4" /> @ffeerdinand
           </a>

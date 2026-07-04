@@ -37,10 +37,10 @@ export function Countdown() {
     <Section id="countdown" className="pt-8 pb-16">
       <div className="max-w-4xl mx-auto glass-panel p-8 md:p-12 rounded-3xl relative overflow-hidden flex flex-col items-center justify-center border border-white/50 shadow-[0_20px_50px_rgba(0,0,0,0.05)]">
         {/* Subtle decorative background elements inside the card */}
-        <div className="absolute top-0 left-0 w-32 h-32 bg-emerald-200/20 rounded-full blur-2xl -translate-x-1/2 -translate-y-1/2"></div>
+        <div className="absolute top-0 left-0 w-32 h-32 bg-blue-200/20 rounded-full blur-2xl -translate-x-1/2 -translate-y-1/2"></div>
         <div className="absolute bottom-0 right-0 w-32 h-32 bg-blue-300/20 rounded-full blur-2xl translate-x-1/2 translate-y-1/2"></div>
 
-        <h3 className="text-xs md:text-sm font-sans font-bold tracking-[0.3em] uppercase text-emerald-600 mb-8 text-center relative z-10">Countdown to the Big Day</h3>
+        <h3 className="text-xs md:text-sm font-sans font-bold tracking-[0.3em] uppercase text-blue-700 mb-8 text-center relative z-10">Countdown to the Big Day</h3>
         
         <div className="grid grid-cols-4 gap-4 md:gap-12 w-full relative z-10">
           {[
