@@ -12,6 +12,7 @@ import { RSVP } from './components/RSVP';
 import { Guestbook } from './components/Guestbook';
 import { MusicPlayer } from './components/MusicPlayer';
 import { AutoScroll } from './components/AutoScroll';
+import { NavBar } from './components/NavBar';
 import { ScrollProgress } from './components/ScrollProgress';
 import { GarlandCluster } from './components/florals/Clusters';
 
@@ -61,6 +62,7 @@ export default function App() {
 
           <MusicPlayer isOpened={isOpened} />
           <AutoScroll isOpened={isOpened} />
+          <NavBar isOpened={isOpened} />
         </>
       )}
     </div>
