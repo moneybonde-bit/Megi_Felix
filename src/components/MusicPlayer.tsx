@@ -55,7 +55,7 @@ export function MusicPlayer({ isOpened }: { isOpened?: boolean }) {
       whileHover={{ scale: 1.1 }}
       whileTap={{ scale: 0.9 }}
       onClick={togglePlay}
-      className={`fixed bottom-6 right-6 z-50 p-4 rounded-full shadow-2xl backdrop-blur-md border transition-all duration-300 flex items-center justify-center overflow-hidden
+      className={`fixed bottom-20 right-4 z-50 p-4 rounded-full shadow-2xl backdrop-blur-md border transition-all duration-300 flex items-center justify-center overflow-hidden
         ${isPlaying
           ? 'bg-white/80 border-blue-300 shadow-[0_10px_25px_rgba(59,130,246,0.3)] text-blue-600'
           : 'bg-white/60 border-white/50 text-charcoal-light hover:text-charcoal-medium shadow-lg'
