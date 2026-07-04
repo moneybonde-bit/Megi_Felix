@@ -1,6 +1,7 @@
 import { Section, SectionTitle } from './ui/Section';
 import { MapPin, Clock, CalendarHeart } from 'lucide-react';
 import { motion } from 'motion/react';
+import { BlueRose } from './florals/Flowers';
 
 export function Events() {
   return (
@@ -26,7 +27,7 @@ export function Events() {
           
           <div className="space-y-6 text-charcoal-light font-sans text-sm">
             <div className="flex items-start gap-4">
-              <CalendarHeart className="w-6 h-6 text-emerald-500 shrink-0 mt-0.5 drop-shadow-sm" />
+              <CalendarHeart className="w-6 h-6 text-blue-600 shrink-0 mt-0.5 drop-shadow-sm" />
               <div>
                 <strong className="block text-charcoal-medium font-semibold mb-1">Hari & Tanggal</strong>
                 Sabtu, 28 November 2026
@@ -34,7 +35,7 @@ export function Events() {
             </div>
             
             <div className="flex items-start gap-4">
-              <Clock className="w-6 h-6 text-emerald-500 shrink-0 mt-0.5 drop-shadow-sm" />
+              <Clock className="w-6 h-6 text-blue-600 shrink-0 mt-0.5 drop-shadow-sm" />
               <div>
                 <strong className="block text-charcoal-medium font-semibold mb-1">Waktu</strong>
                 12:00 WIB - Selesai
@@ -42,10 +43,10 @@ export function Events() {
             </div>
             
             <div className="flex items-start gap-4">
-              <MapPin className="w-6 h-6 text-emerald-500 shrink-0 mt-0.5 drop-shadow-sm" />
+              <MapPin className="w-6 h-6 text-blue-600 shrink-0 mt-0.5 drop-shadow-sm" />
               <div>
                 <strong className="block text-charcoal-medium font-semibold mb-1">Lokasi</strong>
-                <span className="block mb-2 font-bold text-emerald-600">Gereja Katolik Santo Gabriel Pulogebang</span>
+                <span className="block mb-2 font-bold text-blue-700">Gereja Katolik Santo Gabriel Pulogebang</span>
                 Perumahan Pulo Gebang Permai Blok J6 Nomor 1-2, RT.4/RW.11, Kelurahan Pulo Gebang, Kecamatan Cakung, Jakarta Timur
               </div>
             </div>
@@ -63,9 +64,12 @@ export function Events() {
               Open Google Maps
             </motion.a>
           </div>
-          {/* Flower decorative asset placeholder */}
-          <div className="absolute -bottom-10 -right-10 w-40 h-40 opacity-20 pointer-events-none">
-            <img src="https://images.unsplash.com/photo-1546842931-886c185b4c8c?q=80&w=200&auto=format&fit=crop" className="w-full h-full object-cover rounded-full mix-blend-multiply" alt="flower" />
+          {/* Blue rose corner decoration */}
+          <div className="absolute -bottom-10 -right-10 w-44 h-44 opacity-30 pointer-events-none">
+            <BlueRose variant="royal" className="w-full h-full rotate-12" />
+          </div>
+          <div className="absolute -top-8 -left-8 w-28 h-28 opacity-20 pointer-events-none">
+            <BlueRose variant="sky" className="w-full h-full -rotate-45" />
           </div>
         </motion.div>
 
@@ -79,7 +83,7 @@ export function Events() {
           whileHover={{ y: -10 }}
         >
           {/* Subtle accent line */}
-          <div className="absolute top-0 left-0 w-full h-2 bg-gradient-to-r from-sky-blue via-emerald-400 to-transparent opacity-80"></div>
+          <div className="absolute top-0 left-0 w-full h-2 bg-gradient-to-r from-sky-blue via-blue-400 to-transparent opacity-80"></div>
           
           <h3 className="text-3xl font-serif text-charcoal-medium mb-8 text-center">
             Resepsi Pernikahan
@@ -87,7 +91,7 @@ export function Events() {
           
           <div className="space-y-6 text-charcoal-light font-sans text-sm">
             <div className="flex items-start gap-4">
-              <CalendarHeart className="w-6 h-6 text-emerald-500 shrink-0 mt-0.5 drop-shadow-sm" />
+              <CalendarHeart className="w-6 h-6 text-blue-600 shrink-0 mt-0.5 drop-shadow-sm" />
               <div>
                 <strong className="block text-charcoal-medium font-semibold mb-1">Hari & Tanggal</strong>
                 Sabtu, 28 November 2026
@@ -95,7 +99,7 @@ export function Events() {
             </div>
             
             <div className="flex items-start gap-4">
-              <Clock className="w-6 h-6 text-emerald-500 shrink-0 mt-0.5 drop-shadow-sm" />
+              <Clock className="w-6 h-6 text-blue-600 shrink-0 mt-0.5 drop-shadow-sm" />
               <div>
                 <strong className="block text-charcoal-medium font-semibold mb-1">Waktu</strong>
                 18:00 WIB - Selesai
@@ -103,10 +107,10 @@ export function Events() {
             </div>
             
             <div className="flex items-start gap-4">
-              <MapPin className="w-6 h-6 text-emerald-500 shrink-0 mt-0.5 drop-shadow-sm" />
+              <MapPin className="w-6 h-6 text-blue-600 shrink-0 mt-0.5 drop-shadow-sm" />
               <div>
                 <strong className="block text-charcoal-medium font-semibold mb-1">Lokasi</strong>
-                <span className="block mb-2 font-bold text-emerald-600">Golden Leaf Chinese Restaurant</span>
+                <span className="block mb-2 font-bold text-blue-700">Golden Leaf Chinese Restaurant</span>
                 Lotte Grosir Kelapa Gading, Jl. Boulevard Barat Raya No.18 Lantai 2, RT.18/RW.8, Kelapa Gading Barat, Kecamatan Kelapa Gading, Jakarta Utara
               </div>
             </div>
@@ -124,9 +128,12 @@ export function Events() {
               Open Google Maps
             </motion.a>
           </div>
-           {/* Flower decorative asset placeholder */}
-           <div className="absolute -bottom-10 -right-10 w-40 h-40 opacity-20 pointer-events-none">
-            <img src="https://images.unsplash.com/photo-1546842931-886c185b4c8c?q=80&w=200&auto=format&fit=crop" className="w-full h-full object-cover rounded-full mix-blend-multiply" alt="flower" />
+          {/* Blue rose corner decoration */}
+          <div className="absolute -bottom-10 -right-10 w-44 h-44 opacity-30 pointer-events-none">
+            <BlueRose variant="navy" className="w-full h-full -rotate-12" />
+          </div>
+          <div className="absolute -top-8 -left-8 w-28 h-28 opacity-20 pointer-events-none">
+            <BlueRose variant="powder" className="w-full h-full rotate-45" />
           </div>
         </motion.div>
       </div>

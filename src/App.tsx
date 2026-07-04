@@ -13,6 +13,7 @@ import { Guestbook } from './components/Guestbook';
 import { MusicPlayer } from './components/MusicPlayer';
 import { AutoScroll } from './components/AutoScroll';
 import { ScrollProgress } from './components/ScrollProgress';
+import { GarlandCluster } from './components/florals/Clusters';
 
 export default function App() {
   const [isOpened, setIsOpened] = useState(false);
@@ -52,7 +53,8 @@ export default function App() {
             <Guestbook />
           </main>
           
-          <footer className="relative z-10 glass-panel border-x-0 border-b-0 py-10 text-center">
+          <footer className="relative z-10 glass-panel border-x-0 border-b-0 pt-6 pb-10 text-center overflow-hidden">
+            <GarlandCluster className="w-[130%] max-w-none -ml-[15%] -mt-10 mb-4 opacity-90" />
             <p className="font-serif text-charcoal-medium text-2xl mb-2">Meggy & Felix</p>
             <p className="text-xs text-charcoal-light tracking-widest uppercase font-semibold">28 November 2026</p>
           </footer>

@@ -63,8 +63,8 @@ export function RSVP() {
               animate={{ opacity: 1, scale: 1 }}
               className="text-center py-16"
             >
-              <div className="w-20 h-20 bg-emerald-100 rounded-full flex items-center justify-center mx-auto mb-6 shadow-sm border border-emerald-200">
-                <span className="text-emerald-500 text-3xl">✓</span>
+              <div className="w-20 h-20 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-6 shadow-sm border border-blue-200">
+                <span className="text-blue-600 text-3xl">✓</span>
               </div>
               <h3 className="text-3xl font-serif text-charcoal-medium mb-3">Terima Kasih!</h3>
               <p className="text-charcoal-light font-sans text-sm">
